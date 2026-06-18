@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on005473",
-  "source": "openneuro",
-  "source_id": "ds005473",
+  "pipeline_stage": "enriched",
   "title": "29 By BP",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Zhao Xiangyue": {},
     "Zhou Jingyao": {},
@@ -13,21 +13,72 @@
     "Bi Yanzhi": {},
     "Hu Li": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005473.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005473",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005473",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1523/JNEUROSCI.1355-14.2014",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".fdt",
+    ".json",
+    ".m",
+    ".md",
+    ".set",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "The 29 By BP dataset contains neuroimaging data investigating human brain responses to nociceptive stimulation. This dataset supports research on pain processing mechanisms, particularly examining neural responses to concurrent activation of different nociceptor types (Aδ and C fibers) in the somatosensory system.",
+  "keywords": [
+    {
+      "term": "pain processing"
+    },
+    {
+      "term": "nociception"
+    },
+    {
+      "term": "somatosensory cortex"
+    },
+    {
+      "term": "electroencephalography"
+    },
+    {
+      "term": "Aδ fibers"
+    },
+    {
+      "term": "C fibers"
+    },
+    {
+      "term": "nociceptor"
+    },
+    {
+      "term": "event-related potentials"
+    }
+  ],
+  "source_hash": "52b2637ea42bd2ce58ed5f35c6f9d599385143595df921b171619a66b384fc9a"
 }
