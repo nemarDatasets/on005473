@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "29 By BP",
-  "description": "This dataset contains neuroimaging recordings from 29 participants investigating human brain responses to nociceptive stimulation. The study examines neural activity patterns during concomitant stimulation of Aδ and C nociceptors, contributing to understanding of pain processing mechanisms in the human brain.\n\nStudy introduction: This study investigates how the human brain processes pain signals from different types of nociceptors. Participants received controlled nociceptive stimulation targeting both Aδ fibers (which mediate sharp, acute pain) and C fibers (which mediate burning, chronic pain sensations). EEG recordings captured the neural responses to these stimuli, allowing researchers to characterize the distinct brain activity patterns associated with different pain modalities.\n\nParticipant task information: Participants underwent EEG recording while receiving calibrated nociceptive stimuli applied to the skin. The stimulation protocol involved selective activation of Aδ and C nociceptors through controlled laser stimulation. Participants were instructed to remain alert and attentive to the stimuli while avoiding voluntary movements that could contaminate the EEG recordings.\n\nParticipant instructions: Participants were seated comfortably in a quiet, temperature-controlled room. They were instructed to keep their eyes open and fixate on a point on the screen. They were told to remain as still as possible and to avoid talking or making unnecessary movements during the recording sessions. Participants were informed that they would receive mild to moderate painful stimuli and were instructed to report any discomfort or technical issues to the experimenter.\n\nComments: This dataset represents a comprehensive EEG study of nociceptive processing in humans using laser-evoked potentials (LEP). The data includes raw EEG recordings, stimulus markers, and participant information necessary for analyzing event-related potentials and oscillatory activity related to pain processing. The dataset has been processed according to BIDS standards and is suitable for investigations of pain-related brain activity, nociceptive processing mechanisms, and comparative analysis of Aδ and C fiber-mediated neural responses.",
+  "description": "This dataset contains neuroimaging recordings from 29 participants investigating human brain responses to nociceptive stimulation. The study examines neural activity patterns during concomitant stimulation of Aδ and C nociceptors, contributing to understanding of pain processing mechanisms in the human brain.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -21,38 +21,24 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D059225"
     },
     {
-      "term": "Pain",
+      "term": "pain processing",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D010146"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D059408"
     },
     {
-      "term": "Electroencephalography",
+      "term": "EEG",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "Sensory Thresholds",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D012677"
-    },
-    {
-      "term": "Nerve Fibers",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D009412"
-    },
-    {
-      "term": "Somatosensory Cortex",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D013003"
-    },
-    {
-      "term": "Evoked Potentials",
+      "term": "evoked potentials",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D005071"
     },
     {
-      "term": "Laser-Evoked Potentials",
-      "subject_scheme": "MeSH"
+      "term": "somatosensory cortex",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013003"
     }
   ],
   "related_identifiers": [
