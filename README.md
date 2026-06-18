@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005473-blue)](https://doi.org/10.82901/nemar.on005473)
+
 1.Study introduction:
 
 2.Participant task information(description of the experiment):
@@ -5,5 +7,5 @@
 3.Participant instructions(as exact as possible):
 
 4.References and links:
-Hu L, Cai MM, Xiao P, Luo F, Iannetti GD. Human brain responses to concomitant stimulation of A¦Ä and C nociceptors. J Neurosci. 2014 Aug 20;34(34):11439-51. doi: 10.1523/JNEUROSCI.1355-14.2014. PMID: 25143623; PMCID: PMC6615513.
+Hu L, Cai MM, Xiao P, Luo F, Iannetti GD. Human brain responses to concomitant stimulation of Aï¿½ï¿½ and C nociceptors. J Neurosci. 2014 Aug 20;34(34):11439-51. doi: 10.1523/JNEUROSCI.1355-14.2014. PMID: 25143623; PMCID: PMC6615513.
 5.Comments:
