@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "29 By BP",
-  "description": "This dataset contains neuroimaging recordings from 29 participants investigating human brain responses to nociceptive stimulation. The study examines neural activity patterns during concomitant stimulation of Aδ and C nociceptors, contributing to understanding of pain processing mechanisms in the human brain.",
+  "description": "EEG dataset '29 By BP' collected by Zhao Xiangyue, Hu Li and colleagues, relating to research on human brain responses to nociceptive stimulation, in particular concomitant activation of Aδ and C nociceptors. The associated publication (Hu et al., 2014, J Neurosci) investigates EEG responses to concomitant stimulation of Aδ and C nociceptors. The dataset is shared under a CC0 license.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,39 +16,24 @@
   },
   "keywords": [
     {
-      "term": "Nociception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D059225"
+      "term": "EEG"
     },
     {
-      "term": "pain processing",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D059408"
+      "term": "nociception"
     },
     {
-      "term": "EEG",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "pain"
     },
     {
-      "term": "evoked potentials",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D005071"
+      "term": "Aδ fibers"
     },
     {
-      "term": "somatosensory cortex",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D013003"
+      "term": "C fibers"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005473",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005473",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -61,6 +46,11 @@
       "identifier": "10.18112/openneuro.ds005473.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005473",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -68,7 +58,7 @@
     "eeg"
   ],
   "sizes": [
-    "25.7 GB (350 files)"
+    "23.97 GB (350 files)"
   ],
   "formats": [
     ".eeg",
